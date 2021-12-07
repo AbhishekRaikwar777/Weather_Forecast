@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+  cursor: ponter;
+  position: fixed;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+p {
+  color: WhiteSmoke;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 5px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 26%;
+  margin-left: -15px;
+}
+
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #067381;
+  border-radius: 4px;
+  font-size: 16px;
+  color: rgb(218, 218, 218);
+  background-color: #067381;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 15px 10px 5px;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+.card1 {
+  padding: 20px;
+  margin-top: -693px;
+  border-radius: 10px;
+  height: 710px;
+  margin-left: 30px;
+  background-color: #067381;
+}
+
+.card2 {
+  padding: 20px;
+  margin-top: -693px;
+  border-radius: 10px;
+  height: 710px;
+  margin-left: 30px;
+  background-color: rgb(75, 186, 214);
+}
+
+.card {
+  background-color: White;
+  padding: 30px;
+  margin-top: -20px;
+  border-radius: 10px;
+  width: 1425px;
+  height: 738px;
+  margin-left: -20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.fa-search {
+  margin-left: 20px;
+}
+
+.fa-gear {
+  margin-left: 680px;
+}
+
+.material-icons {
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: AliceBlue;
+}
+
+.iconify {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: AliceBlue;
+}
+img {
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.fa-navicon {
+  margin-left: -16px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 35px;
+  padding: 5px;
+  background-color: WhiteSmoke;
+}
+
+.fa-folder-open {
+  margin-left: -16px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: WhiteSmoke;
+}
+
+.fa-cloud {
+  margin-left: -16px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: Lightgrey;
+}
+
+.fa-archive {
+  margin-left: -16px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: Lightgrey;
+}
+
+.fa-bell {
+  margin-left: -16px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 4px;
+  margin-top: 400px;
+  background-color: Lightgrey;
+}
+
+.fa-user {
+  margin-left: -16px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding-left: 8px;
+  width: 35px;
+  line-height: 30px;
+  background-color: WhiteSmoke;
+}
